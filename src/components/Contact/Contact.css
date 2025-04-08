@@ -1,0 +1,181 @@
+.contact_container {
+    width: 70%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%;
+}
+
+.contact_options {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.contact_option {
+    background: var(--color-bg-variant);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.contact_option:hover {
+    border-color: var(--color-primary-variant);
+    background: transparent;
+}
+
+.contact_option svg {
+    font-size: 2.5rem;
+    margin-bottom: 1rem; 
+    color: var(--color-primary-variant); 
+}
+
+.contact_option a {
+    font-size: 0.9rem;
+    display: inline-block;
+    margin-top: 1rem; 
+    color: var(--color-primary); 
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact_option a:hover {
+    color: var(--color-primary-variant);
+}
+
+.contact_container form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contact_container form input,
+form textarea {
+    width: 100%;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    border: 2px solid var(--color-primary-variant);
+    background: transparent;
+    resize: none;
+    color: var(--color-light);
+}
+
+
+.contact_container form button{
+    font-size: 18px;
+    padding: 14px 30px;
+}
+.form-footer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .status-message {
+    font-size: 0.95rem;
+    font-weight: 500;
+    animation: fadeIn 0.3s ease-in-out;
+    margin-left: 10px;
+    transition: opacity 0.3s ease;
+  }
+  
+  .status-message.success {
+    color: green;
+  }
+  
+  .status-message.error {
+    color: red;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(5px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  
+  
+
+
+@media (max-width:1024px) {
+    .contact_container{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+@media (max-width:600px) {
+    .contact_container{
+        width: 90%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

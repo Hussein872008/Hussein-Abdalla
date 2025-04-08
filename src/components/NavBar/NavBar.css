@@ -1,0 +1,107 @@
+nav{
+    background: rgba(0,0,0,0.3);
+    width: max-content;
+    display: block;
+    z-index: 10;
+    padding: 0.7rem 1.7rem;
+    position: fixed;
+    left: 50%;
+    bottom: 2rem;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+}
+
+
+
+nav a{
+    background: transparent;
+    padding: 0.8rem;
+    border-radius: 50%;
+    color: var(--color-light);
+    font-size: 1.1rem;
+    display: flex;
+}
+
+nav a.active{
+    background: var(--color-primary);
+    color: var(--color-white);
+}
+
+
+nav a:hover{
+    background: rgba(110, 110, 110, 0.3);
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 55px;
+    font-size: 12px;
+    background-color: #000000;
+    color: #999999;
+    text-align: center;
+    border-radius: 5px;
+    padding: 2px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
