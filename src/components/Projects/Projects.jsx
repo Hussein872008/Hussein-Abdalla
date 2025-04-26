@@ -39,9 +39,9 @@ const ProjctsData = [
   },
   {
     id: 5,
-    title: "Portfolio Item 5",
+    title: "Lexend",
     img: IMG5,
-    github: "#",
+    github: "https://lexend-xi.vercel.app/",
     demo:"#",
   },
   {
