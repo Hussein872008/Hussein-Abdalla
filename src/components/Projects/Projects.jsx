@@ -32,17 +32,17 @@ const ProjctsData = [
   },
   {
     id: 4,
-    title: "Portfolio Item 4",
+    title: "E-commerce",
     img: IMG4,
-    github: "#",
-    demo:"#",
+    github: "https://github.com/Hussein872008/E-commerce",
+    demo:"https://e-commerce-ten-cyan-65.vercel.app/",
   },
   {
     id: 5,
-    title: "Portfolio Item 5",
+    title: "Lexend",
     img: IMG5,
-    github: "#",
-    demo:"#",
+    github: "https://github.com/Hussein872008/lexend",
+    demo:"https://lexend-xi.vercel.app/",
   },
   {
     id: 6,
