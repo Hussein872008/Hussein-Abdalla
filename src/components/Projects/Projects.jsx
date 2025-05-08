@@ -41,15 +41,15 @@ const ProjctsData = [
     id: 5,
     title: "Lexend",
     img: IMG5,
-    github: "https://lexend-xi.vercel.app/",
-    demo:"#",
+    github: "https://github.com/Hussein872008/lexend",
+    demo:"https://lexend-xi.vercel.app/",
   },
   {
     id: 6,
-    title: "Portfolio Item 6",
+    title: "Shop Ease E-Commerce",
     img: IMG6,
-    github: "#",
-    demo:"#",
+    github: "https://github.com/Hussein872008/shop-ease",
+    demo:"https://shop-ease-hussein.vercel.app/",
   },
 ];
 
