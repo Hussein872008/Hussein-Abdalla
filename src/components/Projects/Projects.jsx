@@ -5,7 +5,7 @@ import IMG2 from "../../assets/coffe-image.png"
 import IMG3 from "../../assets/coffe-image.png"
 import IMG4 from "../../assets/hussein-store-image.png"
 import IMG5 from "../../assets/lexend-image.png"
-import IMG6 from "../../assets/coffe-image.png"
+import IMG6 from "../../assets/shop-ease-image.png"
 
 const ProjctsData = [
   {
