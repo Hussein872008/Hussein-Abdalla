@@ -1,11 +1,11 @@
 import React from 'react'
 import "./Projects.css"
-import IMG1 from "../../assets/portfolio1.jpg"
-import IMG2 from "../../assets/portfolio2.jpg"
-import IMG3 from "../../assets/portfolio3.jpg"
-import IMG4 from "../../assets/portfolio4.jpg"
-import IMG5 from "../../assets/portfolio5.png"
-import IMG6 from "../../assets/portfolio6.jpg"
+import IMG1 from "../../assets/netflix-image.png"
+import IMG2 from "../../assets/coffe-image.png"
+import IMG3 from "../../assets/coffe-image.png"
+import IMG4 from "../../assets/hussein-store-image.png"
+import IMG5 from "../../assets/lexend-image.png"
+import IMG6 from "../../assets/coffe-image.png"
 
 
 const ProjctsData = [
@@ -18,10 +18,10 @@ const ProjctsData = [
   },
   {
     id: 2,
-    title: "Portfolio",
-    img: IMG2,
-    github: "https://github.com/Hussein872008/appportfilio",
-    demo:"https://portfilio-mu.vercel.app/",
+    title: "Lexend",
+    img: IMG5,
+    github: "https://github.com/Hussein872008/lexend",
+    demo:"https://lexend-xi.vercel.app/",
   },
   {
     id: 3,
@@ -32,17 +32,17 @@ const ProjctsData = [
   },
   {
     id: 4,
-    title: "E-commerce",
+    title: "Hussein's Store",
     img: IMG4,
-    github: "https://github.com/Hussein872008/E-commerce",
-    demo:"https://e-commerce-ten-cyan-65.vercel.app/",
+    github: "https://github.com/Hussein872008/Hussein-Store",
+    demo:"https://hussein-store.vercel.app/",
   },
   {
     id: 5,
-    title: "Lexend",
-    img: IMG5,
-    github: "https://github.com/Hussein872008/lexend",
-    demo:"https://lexend-xi.vercel.app/",
+    title: "Portfolio Item 5 ",
+    img: IMG2,
+    github: "#",
+    demo:"#",
   },
   {
     id: 6,

@@ -7,39 +7,33 @@ import { FaCode } from 'react-icons/fa'
 const Services = () => {
   return (
     <section id='services'>
-        <div className="top_sec">
-          <h5>What I Offer</h5>
-          <h2>Services</h2>
-        </div>
-        <div className="container container_services">
+      <div className="top_sec">
+        <h5>What I Offer</h5>
+        <h2>Services</h2>
+      </div>
+      <div className="container container_services">
         <article className="card">
-            <MdDesignServices className='icon' />
-            <h3>
-              Web Design
-            </h3>
-            <p className="text-light">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non magnam dolor vitae explicabo. Exercitationem suscipit ratione soluta beatae, veritatis cumque aspernatur doloremque illo accusamus hic, qui et aliquid id animi?
-            </p>
-          </article>
-          <article className="card">
-            <IoIosRocket className='icon'/>
-            <h3>
-              Fast Performance
-            </h3>
-            <p className="text-light">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non magnam dolor vitae explicabo. Exercitationem suscipit ratione soluta beatae, veritatis cumque aspernatur doloremque illo accusamus hic, qui et aliquid id animi?
-            </p>
-          </article>
-          <article className="card">
-            <FaCode className='icon'/>
-            <h3>
-              Clean Code
-            </h3>
-            <p className="text-light">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non magnam dolor vitae explicabo. Exercitationem suscipit ratione soluta beatae, veritatis cumque aspernatur doloremque illo accusamus hic, qui et aliquid id animi?
-            </p>
-          </article>
-        </div>
+          <MdDesignServices className='icon' />
+          <h3>Web Design</h3>
+          <p className="text-light">
+            I craft user-friendly and visually appealing interfaces using tools like Figma and Tailwind CSS to deliver seamless user experiences.
+          </p>
+        </article>
+        <article className="card">
+          <IoIosRocket className='icon'/>
+          <h3>Fast Performance</h3>
+          <p className="text-light">
+            I build high-performance websites optimized for speed and responsiveness, ensuring smooth browsing on all devices.
+          </p>
+        </article>
+        <article className="card">
+          <FaCode className='icon'/>
+          <h3>Clean Code</h3>
+          <p className="text-light">
+            I write clean, maintainable, and well-structured code using modern JavaScript and React best practices for scalable development.
+          </p>
+        </article>
+      </div>
     </section>
   )
 }

@@ -2,7 +2,7 @@ import React from 'react'
 import "./Home.css"
 import Me from "../../assets/me.png"
 import CV from "../../assets/cv.pdf"
-import { FaLinkedin } from 'react-icons/fa'
+import { FaFacebook, FaLinkedin } from 'react-icons/fa'
 import { FaGithub } from 'react-icons/fa';
 import { FaDribbble } from 'react-icons/fa'
 
@@ -40,7 +40,7 @@ const Home = () => {
         <div className="home_socials">
           <a href="https://www.linkedin.com/in/hussein-abdalla-hussein" target='_blank'><FaLinkedin /></a>
           <a href="https://github.com/Hussein872008" target='_blank'><FaGithub /></a>
-          <a href="#" target='_blank'><FaDribbble /></a>
+          <a href="https://www.facebook.com/husseinabdalla010" target='_blank'><FaFacebook /></a>
         </div>
       </div>
     </div>

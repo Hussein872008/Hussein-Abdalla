@@ -1,11 +1,11 @@
 import React from 'react'
 import "./Skills.css"
 import CSS from "../../assets/css3.svg"
-import Epressjs from "../../assets/epressjs.svg"
-import Figma from "../../assets/figma.svg"
+// import Epressjs from "../../assets/epressjs.svg"
+// import Figma from "../../assets/figma.svg"
 import JavaScript from "../../assets/javascript.svg"
-import Mongodp from "../../assets/mongodp.svg"
-import NodeJS from "../../assets/nodejs.svg"
+// import Mongodp from "../../assets/mongodp.svg"
+// import NodeJS from "../../assets/nodejs.svg"
 import ReactJS from "../../assets/react.svg"
 import Tailwind from "../../assets/tailwindcss.svg"
 
@@ -16,24 +16,24 @@ const SkillsData = [
     img: CSS,
     desc: "User Interface"
   },
-  {
-    id: 2,
-    title: "Epressjs",
-    img: Epressjs,
-    desc: "Node Framework"
-  },
+  // {
+  //   id: 2,
+  //   title: "Epressjs",
+  //   img: Epressjs,
+  //   desc: "Node Framework"
+  // },
   {
     id: 3,
     title: "JavaScript",
     img: JavaScript,
     desc: "Interaction"
   },
-  {
-    id: 4,
-    title: "Figma",
-    img: Figma,
-    desc: "Design Tolls"
-  },
+  // {
+  //   id: 4,
+  //   title: "Figma",
+  //   img: Figma,
+  //   desc: "Design Tolls"
+  // },
   {
     id: 5,
     title: "ReactJS",
@@ -46,18 +46,18 @@ const SkillsData = [
     img: Tailwind,
     desc: "User Interface"
   },
-  {
-    id: 7,
-    title: "NodeJS",
-    img: NodeJS,
-    desc: "Web Server"
-  },
-  {
-    id: 8,
-    title: "Mongodp",
-    img: Mongodp,
-    desc: "Database"
-  }
+  // {
+  //   id: 7,
+  //   title: "NodeJS",
+  //   img: NodeJS,
+  //   desc: "Web Server"
+  // },
+  // {
+  //   id: 8,
+  //   title: "Mongodp",
+  //   img: Mongodp,
+  //   desc: "Database"
+  // }
 ];
 
 

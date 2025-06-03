@@ -21,17 +21,16 @@
 }
 
 .portfolio_item h3{
-    margin: 22px 0px 35px;
+    margin: 22px 0px 10px;
 }
 
 
 .portfolio_item_btns{
     display: flex;
-    margin-bottom: 15px;
+    margin-bottom: 3px;
     gap: 20px;
 }
 
-/* Responsive */
 
 
 @media (max-width:1024px) {
